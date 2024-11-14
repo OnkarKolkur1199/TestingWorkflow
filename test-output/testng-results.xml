@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Defect- Test2 Ajio_testAjio <a href='C:\Users\Onkar Kolkur\eclipse-workspace\Workflow_Testing\.\Screenshots\14112024203932\Test2 Ajio_testAjio.jpg'> <img src='C:\Users\Onkar Kolkur\eclipse-workspace\Workflow_Testing\.\Screenshots\14112024203932\Test2 Ajio_testAjio.jpg' height='200' width='300'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-14T20:39:11 IST" name="Suite" finished-at="2024-11-14T20:39:50 IST" duration-ms="39328">
+    <groups>
+    </groups>
+    <test started-at="2024-11-14T20:39:11 IST" name="Test1 Amazon" finished-at="2024-11-14T20:39:24 IST" duration-ms="13179">
+      <class name="failedScreenshots.TestCalss">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:failedScreenshots.TestCalss@13b6aecc]" started-at="2024-11-14T20:39:11 IST" name="setUp" finished-at="2024-11-14T20:39:16 IST" duration-ms="4787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAmazon()[pri:0, instance:failedScreenshots.TestCalss@13b6aecc]" started-at="2024-11-14T20:39:16 IST" name="testAmazon" finished-at="2024-11-14T20:39:23 IST" duration-ms="7443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazon -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:failedScreenshots.TestCalss@13b6aecc]" started-at="2024-11-14T20:39:23 IST" name="tearDown" finished-at="2024-11-14T20:39:24 IST" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- failedScreenshots.TestCalss -->
+    </test> <!-- Test1 Amazon -->
+    <test started-at="2024-11-14T20:39:24 IST" name="Test2 Ajio" finished-at="2024-11-14T20:39:34 IST" duration-ms="9946">
+      <class name="failedScreenshots.TestCalss">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:failedScreenshots.TestCalss@a1cdc6d]" started-at="2024-11-14T20:39:24 IST" name="setUp" finished-at="2024-11-14T20:39:28 IST" duration-ms="3963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAjio()[pri:0, instance:failedScreenshots.TestCalss@a1cdc6d]" started-at="2024-11-14T20:39:28 IST" name="testAjio" finished-at="2024-11-14T20:39:32 IST" duration-ms="4123" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Ajio title is mismatched expected [Online Kids fashion shopping site in India - AJIO Failed] but found [Online Kids fashion shopping site in India - AJIO]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Ajio title is mismatched expected [Online Kids fashion shopping site in India - AJIO Failed] but found [Online Kids fashion shopping site in India - AJIO]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at failedScreenshots.TestCalss.testAjio(TestCalss.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Defect- Test2 Ajio_testAjio <a href='C:\Users\Onkar Kolkur\eclipse-workspace\Workflow_Testing\.\Screenshots\14112024203932\Test2 Ajio_testAjio.jpg'> <img src='C:\Users\Onkar Kolkur\eclipse-workspace\Workflow_Testing\.\Screenshots\14112024203932\Test2 Ajio_testAjio.jpg' height='200' width='300'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAjio -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:failedScreenshots.TestCalss@a1cdc6d]" started-at="2024-11-14T20:39:34 IST" name="tearDown" finished-at="2024-11-14T20:39:34 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- failedScreenshots.TestCalss -->
+    </test> <!-- Test2 Ajio -->
+    <test started-at="2024-11-14T20:39:34 IST" name="Test3 OrangeHRM" finished-at="2024-11-14T20:39:50 IST" duration-ms="16153">
+      <class name="failedScreenshots.TestCalss">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:failedScreenshots.TestCalss@3098cf3b]" started-at="2024-11-14T20:39:34 IST" name="setUp" finished-at="2024-11-14T20:39:38 IST" duration-ms="4063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="assertOrangeHRMLoginTest()[pri:0, instance:failedScreenshots.TestCalss@3098cf3b]" started-at="2024-11-14T20:39:38 IST" name="assertOrangeHRMLoginTest" finished-at="2024-11-14T20:39:50 IST" duration-ms="11395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertOrangeHRMLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:failedScreenshots.TestCalss@3098cf3b]" started-at="2024-11-14T20:39:50 IST" name="tearDown" finished-at="2024-11-14T20:39:50 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- failedScreenshots.TestCalss -->
+    </test> <!-- Test3 OrangeHRM -->
+  </suite> <!-- Suite -->
+</testng-results>
