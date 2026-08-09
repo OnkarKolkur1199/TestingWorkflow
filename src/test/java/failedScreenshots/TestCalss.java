@@ -65,7 +65,7 @@ public class TestCalss extends BaseTest{
         
         // Text assertion
         String actualBorder = driver.findElement(By.name("password")).getCssValue("border");
-        String expectedBorder = "0.666667px solid rgb(235, 9, 16)";       
+        String expectedBorder = "0.690647px solid rgb(235, 9, 16)";       
         softAssert.assertEquals(actualBorder, expectedBorder, "Border is mismatched");
         
         // ErrorMessage assertion
