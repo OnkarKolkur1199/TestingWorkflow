@@ -32,7 +32,7 @@ public class TestCalss extends BaseTest{
         
         SoftAssert softAssert = new SoftAssert();
         String actualTitle = driver.getTitle();
-        String expectedTitle = "Online Kids fashion shopping site in India - AJIO";       
+        String expectedTitle = "Kids Fashion - Shop for Kids Clothes, Accessories & More";       
         softAssert.assertEquals(actualTitle, expectedTitle, "Ajio title is mismatched");
         softAssert.assertAll();
         Thread.sleep(3000);
