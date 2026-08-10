@@ -8,9 +8,9 @@
     <classes>
       <class name="failedScreenshots.TestCalss">
         <methods>
+          <include name="testTricentisLogin"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="testAjio"/>
         </methods>
       </class> <!-- failedScreenshots.TestCalss -->
     </classes>
