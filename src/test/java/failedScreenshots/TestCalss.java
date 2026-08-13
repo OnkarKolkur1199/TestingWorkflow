@@ -70,8 +70,9 @@ public class TestCalss extends BaseTest {
 
 		driver.findElement(By.xpath("//input[@type='text' and @class='email']")).sendKeys("onkarkolkur1999@gmail.com");
 		driver.findElement(By.xpath("//input[@type='password' and @class='password']")).sendKeys("Happy@1199");
-		driver.findElement(By.xpath("//input[@type='submit' and @class='button-1 login-(button)']")).click();
+		driver.findElement(By.xpath("//input[@type='submit' and @class='button-1 login-button']")).click();
 		Thread.sleep(3000);
+		
 	}
 
 	@Test(priority = 3)

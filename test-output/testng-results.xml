@@ -1,129 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Defect- Test2 Ajio_testTricentisLogin <a href='C:\Users\Onkar Kolkur\eclipse-workspace\TestingWorkflow\.\Screenshots\11082026002451\Test2 Ajio_testTricentisLogin.jpg'> <img src='C:\Users\Onkar Kolkur\eclipse-workspace\TestingWorkflow\.\Screenshots\11082026002451\Test2 Ajio_testTricentisLogin.jpg' height='200' width='300'/> </a>]]>
-    </line>
   </reporter-output>
-  <suite started-at="2026-08-11T00:24:21 IST" name="Suite" finished-at="2026-08-11T00:25:08 IST" duration-ms="47249">
+  <suite started-at="2026-08-13T22:08:22 IST" name="Suite" finished-at="2026-08-13T22:09:24 IST" duration-ms="61473">
     <groups>
     </groups>
-    <test started-at="2026-08-11T00:24:21 IST" name="Test1 Amazon" finished-at="2026-08-11T00:24:33 IST" duration-ms="12087">
+    <test started-at="2026-08-13T22:08:22 IST" name="Test1 Demo Blaze" finished-at="2026-08-13T22:08:54 IST" duration-ms="31498">
       <class name="failedScreenshots.TestCalss">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:failedScreenshots.TestCalss@13b6aecc]" started-at="2026-08-11T00:24:21 IST" name="setUp" finished-at="2026-08-11T00:24:26 IST" duration-ms="4751" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:failedScreenshots.TestCalss@13b6aecc]" started-at="2026-08-13T22:08:22 IST" name="setUp" finished-at="2026-08-13T22:08:27 IST" duration-ms="4891" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDemoBlazeProductCOunt()[pri:1, instance:failedScreenshots.TestCalss@13b6aecc]" started-at="2026-08-11T00:24:26 IST" name="testDemoBlazeProductCOunt" finished-at="2026-08-11T00:24:33 IST" duration-ms="6869" status="PASS">
+        <test-method signature="testDemoBlazeProductCOunt()[pri:1, instance:failedScreenshots.TestCalss@13b6aecc]" started-at="2026-08-13T22:08:27 IST" name="testDemoBlazeProductCOunt" finished-at="2026-08-13T22:08:53 IST" duration-ms="26169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDemoBlazeProductCOunt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:failedScreenshots.TestCalss@13b6aecc]" started-at="2026-08-11T00:24:33 IST" name="tearDown" finished-at="2026-08-11T00:24:33 IST" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:failedScreenshots.TestCalss@13b6aecc]" started-at="2026-08-13T22:08:53 IST" name="tearDown" finished-at="2026-08-13T22:08:54 IST" duration-ms="316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- failedScreenshots.TestCalss -->
-    </test> <!-- Test1 Amazon -->
-    <test started-at="2026-08-11T00:24:33 IST" name="Test2 Ajio" finished-at="2026-08-11T00:24:52 IST" duration-ms="18606">
+    </test> <!-- Test1 Demo Blaze -->
+    <test started-at="2026-08-13T22:08:54 IST" name="Test2 Tricenties" finished-at="2026-08-13T22:09:07 IST" duration-ms="13387">
       <class name="failedScreenshots.TestCalss">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:failedScreenshots.TestCalss@a1cdc6d]" started-at="2026-08-11T00:24:33 IST" name="setUp" finished-at="2026-08-11T00:24:37 IST" duration-ms="3887" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:failedScreenshots.TestCalss@a1cdc6d]" started-at="2026-08-13T22:08:54 IST" name="setUp" finished-at="2026-08-13T22:08:57 IST" duration-ms="3885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testTricentisLogin()[pri:2, instance:failedScreenshots.TestCalss@a1cdc6d]" started-at="2026-08-11T00:24:37 IST" name="testTricentisLogin" finished-at="2026-08-11T00:24:51 IST" duration-ms="14112" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='submit' and @class='button-1 login-(button)']"}
-  (Session info: chrome=151.0.7922.77)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8bd192f846b03d8ecb48b922e5d52f6c, findElement {value=//input[@type='submit' and @class='button-1 login-(button)'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\ONKARK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55941}, goog:processID: 10672, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55941/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8bd192f846b03d8ecb48b922e5d52f6c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='submit' and @class='button-1 login-(button)']"}
-  (Session info: chrome=151.0.7922.77)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8bd192f846b03d8ecb48b922e5d52f6c, findElement {value=//input[@type='submit' and @class='button-1 login-(button)'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\ONKARK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55941}, goog:processID: 10672, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55941/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8bd192f846b03d8ecb48b922e5d52f6c
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at failedScreenshots.TestCalss.testTricentisLogin(TestCalss.java:73)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="testTricentisLogin()[pri:2, instance:failedScreenshots.TestCalss@a1cdc6d]" started-at="2026-08-13T22:08:57 IST" name="testTricentisLogin" finished-at="2026-08-13T22:09:07 IST" duration-ms="9129" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Defect- Test2 Ajio_testTricentisLogin <a href='C:\Users\Onkar Kolkur\eclipse-workspace\TestingWorkflow\.\Screenshots\11082026002451\Test2 Ajio_testTricentisLogin.jpg'> <img src='C:\Users\Onkar Kolkur\eclipse-workspace\TestingWorkflow\.\Screenshots\11082026002451\Test2 Ajio_testTricentisLogin.jpg' height='200' width='300'/> </a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- testTricentisLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:failedScreenshots.TestCalss@a1cdc6d]" started-at="2026-08-11T00:24:51 IST" name="tearDown" finished-at="2026-08-11T00:24:52 IST" duration-ms="302" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:failedScreenshots.TestCalss@a1cdc6d]" started-at="2026-08-13T22:09:07 IST" name="tearDown" finished-at="2026-08-13T22:09:07 IST" duration-ms="355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- failedScreenshots.TestCalss -->
-    </test> <!-- Test2 Ajio -->
-    <test started-at="2026-08-11T00:24:52 IST" name="Test3 OrangeHRM" finished-at="2026-08-11T00:25:08 IST" duration-ms="16521">
+    </test> <!-- Test2 Tricenties -->
+    <test started-at="2026-08-13T22:09:07 IST" name="Test3 Sauce Demo" finished-at="2026-08-13T22:09:24 IST" duration-ms="16556">
       <class name="failedScreenshots.TestCalss">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:failedScreenshots.TestCalss@3098cf3b]" started-at="2026-08-11T00:24:52 IST" name="setUp" finished-at="2026-08-11T00:24:56 IST" duration-ms="3994" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:failedScreenshots.TestCalss@3098cf3b]" started-at="2026-08-13T22:09:07 IST" name="setUp" finished-at="2026-08-13T22:09:11 IST" duration-ms="3941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSauceDemoDummyLogin()[pri:3, instance:failedScreenshots.TestCalss@3098cf3b]" started-at="2026-08-11T00:24:56 IST" name="testSauceDemoDummyLogin" finished-at="2026-08-11T00:25:08 IST" duration-ms="12162" status="PASS">
+        <test-method signature="testSauceDemoDummyLogin()[pri:3, instance:failedScreenshots.TestCalss@3098cf3b]" started-at="2026-08-13T22:09:11 IST" name="testSauceDemoDummyLogin" finished-at="2026-08-13T22:09:23 IST" duration-ms="12314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSauceDemoDummyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:failedScreenshots.TestCalss@3098cf3b]" started-at="2026-08-11T00:25:08 IST" name="tearDown" finished-at="2026-08-11T00:25:08 IST" duration-ms="357" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:failedScreenshots.TestCalss@3098cf3b]" started-at="2026-08-13T22:09:23 IST" name="tearDown" finished-at="2026-08-13T22:09:24 IST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- failedScreenshots.TestCalss -->
-    </test> <!-- Test3 OrangeHRM -->
+    </test> <!-- Test3 Sauce Demo -->
   </suite> <!-- Suite -->
 </testng-results>

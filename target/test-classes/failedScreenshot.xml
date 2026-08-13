@@ -4,7 +4,7 @@
   <listeners>
   	<listener class-name="failedScreenshots.ITestListenerClass"></listener>
   </listeners>
-  <test name="Test1 Amazon">
+  <test name="Test1 Demo Blaze">
     <classes>
       <class name="failedScreenshots.TestCalss">
       	<methods>
@@ -13,7 +13,7 @@
       </class>
     </classes>
   </test>
-  <test name="Test2 Ajio">
+  <test name="Test2 Tricenties">
     <classes>
       <class name="failedScreenshots.TestCalss">
       	<methods>
@@ -22,7 +22,7 @@
       </class>
     </classes>
   </test>
-  <test name="Test3 OrangeHRM">
+  <test name="Test3 Sauce Demo">
     <classes>
       <class name="failedScreenshots.TestCalss">
       	<methods>
